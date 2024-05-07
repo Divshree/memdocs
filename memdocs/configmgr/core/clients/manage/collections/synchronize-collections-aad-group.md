@@ -43,7 +43,7 @@ Example synchronization scenario:
 
 ## Prerequisites for Microsoft Entra synchronization
 
-- Integration with Microsoft Entra ID for [cloud management](../../../servers/deploy/configure/azure-services-wizard.md)
+- Integration with Microsoft Entra ID for [cloud management](../../../servers/deploy/configure/azure-services-wizard.md) Option to **Disable Azure Active Directory authentication for this Tenant** should not be checked in Azure Service configured for Cloud Management in the console as this will prevent clients from registering with Entra ID Authentication.
 
 - [Microsoft Entra user discovery](../../../servers/deploy/configure/about-discovery-methods.md#azureaddisc)
 
